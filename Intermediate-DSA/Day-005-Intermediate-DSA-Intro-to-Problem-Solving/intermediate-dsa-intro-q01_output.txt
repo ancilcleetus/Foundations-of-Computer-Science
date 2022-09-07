@@ -1,0 +1,16 @@
+No of factors of 10 = 4
+Took 13581 ns
+No of factors of 100 = 9
+Took 12816 ns
+No of factors of 1000 = 16
+Took 145848 ns
+No of factors of 10 = 4
+Took 3734 ns
+No of factors of 100 = 9
+Took 4965 ns
+No of factors of 1000 = 16
+Took 11633 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
