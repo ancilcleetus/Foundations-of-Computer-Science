@@ -1,0 +1,6 @@
+Output = [0, 0, 1, 0, 2]
+Took 38.667 us
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal

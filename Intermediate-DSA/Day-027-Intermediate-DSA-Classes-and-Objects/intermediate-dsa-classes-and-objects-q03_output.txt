@@ -1,0 +1,12 @@
+Details of s1:
+s1 is a Student
+Name of s1 is Ancil
+ID of s1 is 1
+Subject of s1 is Maths
+
+Accessing class variable using class name
+Type of Student = Student
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
