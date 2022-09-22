@@ -1,0 +1,14 @@
+isPerfect(10) = False
+Took 13537 ns
+isPerfect(100) = False
+Took 10853 ns
+isPerfect(1000) = False
+Took 23195 ns
+isPerfect(8100) = False
+Took 64725 ns
+isPerfect(100000000) = False
+Took 6822911 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
