@@ -3,6 +3,10 @@
 from time import perf_counter_ns
 
 def get_factors_count_01(N):
+    """
+    No of iterations = N
+    """
+
     count = 0
     for i in range(1, N+1):
         if N % i == 0:
@@ -24,6 +28,10 @@ toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 
 def get_factors_count_02(N):
+    """
+    No of iterations = floor(sqrt(N))
+    """
+
     count = 0
     i = 1
     while i * i <= N:
