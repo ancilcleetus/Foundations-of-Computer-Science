@@ -1,13 +1,23 @@
-getSquareRoot(10) = -1
-Took 8711 ns
-getSquareRoot(100) = 10
-Took 6825 ns
-getSquareRoot(1000) = -1
-Took 18300 ns
-getSquareRoot(8100) = 90
-Took 52150 ns
-getSquareRoot(100000000) = 10000
-Took 6740288 ns
+getSquareRoot_01(10) = -1
+Took 21862 ns
+getSquareRoot_01(100) = 10
+Took 4632 ns
+getSquareRoot_01(1000) = -1
+Took 9788 ns
+getSquareRoot_01(8100) = 90
+Took 23519 ns
+getSquareRoot_01(100000000) = 10000
+Took 3695803 ns
+getSquareRoot_02(10) = -1
+Took 6036 ns
+getSquareRoot_02(100) = 10
+Took 3837 ns
+getSquareRoot_02(1000) = -1
+Took 6171 ns
+getSquareRoot_02(8100) = 90
+Took 7907 ns
+getSquareRoot_02(100000000) = 10000
+Took 14144 ns
 
 
 ** Process exited - Return Code: 0 **

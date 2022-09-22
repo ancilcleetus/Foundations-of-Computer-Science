@@ -59,7 +59,7 @@ Explanation 2:
 
 from time import perf_counter_ns
 
-def getSquareRoot(N):
+def getSquareRoot_01(N):
     """
     No of iterations = floor(sqrt(N))
     """
@@ -73,22 +73,64 @@ def getSquareRoot(N):
         return -1
     
 tic = perf_counter_ns()
-print(f"getSquareRoot(10) = {getSquareRoot(10)}")
+print(f"getSquareRoot_01(10) = {getSquareRoot_01(10)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"getSquareRoot(100) = {getSquareRoot(100)}")
+print(f"getSquareRoot_01(100) = {getSquareRoot_01(100)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"getSquareRoot(1000) = {getSquareRoot(1000)}")
+print(f"getSquareRoot_01(1000) = {getSquareRoot_01(1000)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"getSquareRoot(8100) = {getSquareRoot(8100)}")
+print(f"getSquareRoot_01(8100) = {getSquareRoot_01(8100)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"getSquareRoot(100000000) = {getSquareRoot(100000000)}")
+print(f"getSquareRoot_01(100000000) = {getSquareRoot_01(100000000)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+
+def getSquareRoot_02(N):
+    """
+    No of iterations = floor(log(N))
+    """
+    
+    low = 1
+    high = N
+    while True:
+        if low == high:
+            return 1
+        elif high-low == 1:
+            return -1
+        else:
+            mid = (low + high) // 2
+            if mid * mid > N:
+                high = mid
+            elif mid * mid == N:
+                return mid
+            else:
+                low = mid
+        
+tic = perf_counter_ns()
+print(f"getSquareRoot_02(10) = {getSquareRoot_02(10)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"getSquareRoot_02(100) = {getSquareRoot_02(100)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"getSquareRoot_02(1000) = {getSquareRoot_02(1000)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"getSquareRoot_02(8100) = {getSquareRoot_02(8100)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"getSquareRoot_02(100000000) = {getSquareRoot_02(100000000)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
