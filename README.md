@@ -1,2 +1,4 @@
 # Foundations-of-Computer-Science
-Foundations of Computer Science
+
+* [ ] Intermediate DSA
+* [ ] Advanced DSA
