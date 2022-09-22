@@ -1,0 +1,14 @@
+isArmstrong(10) = False
+Took 21873 ns
+isArmstrong(999) = False
+Took 4867 ns
+isArmstrong(9999) = False
+Took 4409 ns
+isArmstrong(999999) = False
+Took 5294 ns
+isArmstrong(199999999) = False
+Took 7651 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
