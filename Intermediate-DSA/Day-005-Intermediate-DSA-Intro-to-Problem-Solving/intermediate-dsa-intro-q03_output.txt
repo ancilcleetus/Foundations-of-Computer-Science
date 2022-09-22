@@ -1,0 +1,14 @@
+getSquareRoot(10) = -1
+Took 8711 ns
+getSquareRoot(100) = 10
+Took 6825 ns
+getSquareRoot(1000) = -1
+Took 18300 ns
+getSquareRoot(8100) = 90
+Took 52150 ns
+getSquareRoot(100000000) = 10000
+Took 6740288 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
