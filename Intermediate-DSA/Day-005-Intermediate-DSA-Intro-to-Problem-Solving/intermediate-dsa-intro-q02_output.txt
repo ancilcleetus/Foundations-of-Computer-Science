@@ -1,0 +1,12 @@
+isPrime(10) = False
+Took 20638 ns
+isPrime(100) = False
+Took 12562 ns
+isPrime(1000) = False
+Took 137295 ns
+isPrime(7919) = True
+Took 1339267 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
