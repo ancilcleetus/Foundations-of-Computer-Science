@@ -67,6 +67,10 @@ def cube(num):
     return num * num * num
 
 def isArmstrong(num):
+    """
+    No of Iterations = ceil(log10(num))
+    """
+    
     orig_num = num
     sum_digit_cubes = 0
     while num != 0:
