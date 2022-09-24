@@ -1,21 +1,30 @@
-reverseArray01([3, -2, 1, 4, 3, 6, 8]) = [8, 6, 3, 4, 1, -2, 3]
-Took 21029 ns
-reverseArray01([2, 4, -3, 7]) = [7, -3, 4, 2]
-Took 9662 ns
-reverseArray01([2, 3, 8, 5, 3]) = [3, 5, 8, 3, 2]
-Took 9907 ns
-reverseArray02([8, 6, 3, 4, 1, -2, 3]) = [3, -2, 1, 4, 3, 6, 8]
-Took 14364 ns
-reverseArray02([7, -3, 4, 2]) = [2, 4, -3, 7]
-Took 10624 ns
-reverseArray02([3, 5, 8, 3, 2]) = [2, 3, 8, 5, 3]
-Took 11114 ns
-reverseArray03([3, -2, 1, 4, 3, 6, 8]) = [8, 6, 3, 4, 1, -2, 3]
-Took 12845 ns
-reverseArray03([2, 4, -3, 7]) = [7, -3, 4, 2]
-Took 9238 ns
-reverseArray03([2, 3, 8, 5, 3]) = [3, 5, 8, 3, 2]
-Took 9784 ns
+Before: array1 = [3, -2, 1, 4, 3, 6, 8]
+After: array1 = [8, 6, 3, 4, 1, -2, 3]
+Took 25512 ns
+Before: array2 = [2, 4, -3, 7]
+After: array2 = [7, -3, 4, 2]
+Took 12201 ns
+Before: array3 = [2, 3, 8, 5, 3]
+After: array3 = [3, 5, 8, 3, 2]
+Took 12348 ns
+Before: array1 = [8, 6, 3, 4, 1, -2, 3]
+After: array1 = [3, -2, 1, 4, 3, 6, 8]
+Took 17523 ns
+Before: array2 = [7, -3, 4, 2]
+After: array2 = [2, 4, -3, 7]
+Took 13363 ns
+Before: array3 = [3, 5, 8, 3, 2]
+After: array3 = [2, 3, 8, 5, 3]
+Took 13886 ns
+Before: array1 = [3, -2, 1, 4, 3, 6, 8]
+After: array1 = [8, 6, 3, 4, 1, -2, 3]
+Took 15632 ns
+Before: array2 = [2, 4, -3, 7]
+After: array2 = [7, -3, 4, 2]
+Took 11822 ns
+Before: array3 = [2, 3, 8, 5, 3]
+After: array3 = [3, 5, 8, 3, 2]
+Took 12497 ns
 
 
 ** Process exited - Return Code: 0 **

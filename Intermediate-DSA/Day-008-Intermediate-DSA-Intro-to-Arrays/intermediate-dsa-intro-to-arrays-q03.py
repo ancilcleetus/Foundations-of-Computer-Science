@@ -20,8 +20,6 @@ def reverseArray01(array):
 
         left += 1
         right -= 1
-    
-    return array
 
 
 array1 = [3, -2, 1, 4, 3, 6, 8]
@@ -30,15 +28,21 @@ array3 = [2, 3, 8, 5, 3]
 
     
 tic = perf_counter_ns()
-print(f"reverseArray01({array1}) = {reverseArray01(array1)}")
+print(f"Before: array1 = {array1}")
+reverseArray01(array1)
+print(f"After: array1 = {array1}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray01({array2}) = {reverseArray01(array2)}")
+print(f"Before: array2 = {array2}")
+reverseArray01(array2)
+print(f"After: array2 = {array2}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray01({array3}) = {reverseArray01(array3)}")
+print(f"Before: array3 = {array3}")
+reverseArray01(array3)
+print(f"After: array3 = {array3}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 
@@ -63,18 +67,22 @@ def reverseArray02(array):
         left += 1
         right -= 1
     
-    return array
-    
 tic = perf_counter_ns()
-print(f"reverseArray02({array1}) = {reverseArray02(array1)}")
+print(f"Before: array1 = {array1}")
+reverseArray02(array1)
+print(f"After: array1 = {array1}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray02({array2}) = {reverseArray02(array2)}")
+print(f"Before: array2 = {array2}")
+reverseArray02(array2)
+print(f"After: array2 = {array2}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray02({array3}) = {reverseArray02(array3)}")
+print(f"Before: array3 = {array3}")
+reverseArray02(array3)
+print(f"After: array3 = {array3}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 
@@ -94,17 +102,21 @@ def reverseArray03(array):
         left += 1
         right -= 1
     
-    return array
-    
 tic = perf_counter_ns()
-print(f"reverseArray03({array1}) = {reverseArray03(array1)}")
+print(f"Before: array1 = {array1}")
+reverseArray03(array1)
+print(f"After: array1 = {array1}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray03({array2}) = {reverseArray03(array2)}")
+print(f"Before: array2 = {array2}")
+reverseArray03(array2)
+print(f"After: array2 = {array2}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
 tic = perf_counter_ns()
-print(f"reverseArray03({array3}) = {reverseArray03(array3)}")
+print(f"Before: array3 = {array3}")
+reverseArray03(array3)
+print(f"After: array3 = {array3}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
