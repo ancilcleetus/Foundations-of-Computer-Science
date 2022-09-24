@@ -1,0 +1,16 @@
+reverseArray01([3, -2, 1, 4, 3, 6, 8]) = [8, 6, 3, 4, 1, -2, 3]
+Took 20296 ns
+reverseArray01([2, 4, -3, 7]) = [7, -3, 4, 2]
+Took 9878 ns
+reverseArray01([2, 3, 8, 5, 3]) = [3, 5, 8, 3, 2]
+Took 9943 ns
+reverseArray02([8, 6, 3, 4, 1, -2, 3]) = [3, -2, 1, 4, 3, 6, 8]
+Took 14500 ns
+reverseArray02([7, -3, 4, 2]) = [2, 4, -3, 7]
+Took 10739 ns
+reverseArray02([3, 5, 8, 3, 2]) = [2, 3, 8, 5, 3]
+Took 11220 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
