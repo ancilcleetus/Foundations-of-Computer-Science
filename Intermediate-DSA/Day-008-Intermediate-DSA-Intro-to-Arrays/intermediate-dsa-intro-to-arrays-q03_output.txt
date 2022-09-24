@@ -1,15 +1,21 @@
 reverseArray01([3, -2, 1, 4, 3, 6, 8]) = [8, 6, 3, 4, 1, -2, 3]
-Took 20296 ns
+Took 21029 ns
 reverseArray01([2, 4, -3, 7]) = [7, -3, 4, 2]
-Took 9878 ns
+Took 9662 ns
 reverseArray01([2, 3, 8, 5, 3]) = [3, 5, 8, 3, 2]
-Took 9943 ns
+Took 9907 ns
 reverseArray02([8, 6, 3, 4, 1, -2, 3]) = [3, -2, 1, 4, 3, 6, 8]
-Took 14500 ns
+Took 14364 ns
 reverseArray02([7, -3, 4, 2]) = [2, 4, -3, 7]
-Took 10739 ns
+Took 10624 ns
 reverseArray02([3, 5, 8, 3, 2]) = [2, 3, 8, 5, 3]
-Took 11220 ns
+Took 11114 ns
+reverseArray03([3, -2, 1, 4, 3, 6, 8]) = [8, 6, 3, 4, 1, -2, 3]
+Took 12845 ns
+reverseArray03([2, 4, -3, 7]) = [7, -3, 4, 2]
+Took 9238 ns
+reverseArray03([2, 3, 8, 5, 3]) = [3, 5, 8, 3, 2]
+Took 9784 ns
 
 
 ** Process exited - Return Code: 0 **

@@ -77,3 +77,34 @@ tic = perf_counter_ns()
 print(f"reverseArray02({array3}) = {reverseArray02(array3)}")
 toc = perf_counter_ns()
 print(f"Took {toc-tic} ns")
+
+
+def reverseArray03(array):
+    """
+    TC = O(N)
+    SC = O(1)
+    """
+    array_size = len(array)
+    left = 0
+    right = array_size - 1
+    while left < right:
+        # To swap a and b without temporary variable
+        array[left], array[right] = array[right], array[left]
+
+        left += 1
+        right -= 1
+    
+    return array
+    
+tic = perf_counter_ns()
+print(f"reverseArray03({array1}) = {reverseArray03(array1)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"reverseArray03({array2}) = {reverseArray03(array2)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
+tic = perf_counter_ns()
+print(f"reverseArray03({array3}) = {reverseArray03(array3)}")
+toc = perf_counter_ns()
+print(f"Took {toc-tic} ns")
