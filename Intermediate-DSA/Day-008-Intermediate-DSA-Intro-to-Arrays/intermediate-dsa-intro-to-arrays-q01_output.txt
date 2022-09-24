@@ -1,0 +1,16 @@
+getCount01([-3, -2, 6, 8, 4, 8, 5]) = 5
+Took 22961 ns
+getCount01([10, 3, 10, 8, 2, 10, 10, 8] = 4
+Took 14159 ns
+getCount01([8, 8, 8, 8, 8, 8] = 0
+Took 29485 ns
+getCount02([-3, -2, 6, 8, 4, 8, 5]) = 5
+Took 11845 ns
+getCount02([10, 3, 10, 8, 2, 10, 10, 8] = 4
+Took 12836 ns
+getCount02([8, 8, 8, 8, 8, 8] = 0
+Took 10954 ns
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
