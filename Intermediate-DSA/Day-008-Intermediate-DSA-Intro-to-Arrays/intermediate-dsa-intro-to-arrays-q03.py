@@ -9,6 +9,8 @@ def reverseArray01(array):
     """
     TC = O(N)
     SC = O(1)
+    No need to return anything since
+    we are modifying the input itself
     """
     array_size = len(array)
     left = 0
@@ -51,6 +53,8 @@ def reverseArray02(array):
     """
     TC = O(N)
     SC = O(1)
+    No need to return anything since
+    we are modifying the input itself
     """
     array_size = len(array)
     left = 0
@@ -91,6 +95,8 @@ def reverseArray03(array):
     """
     TC = O(N)
     SC = O(1)
+    No need to return anything since
+    we are modifying the input itself
     """
     array_size = len(array)
     left = 0
