@@ -2,3 +2,8 @@
 
 * [ ] Intermediate DSA
 * [ ] Advanced DSA
+
+| 	Module	 | 	Done	 | 
+| 	:--:	 | 	:--:	 | 
+| 	Intermediate DSA	| 	- [ ]	 | 
+| 	Advanced DSA	| 	- [x]	 | 
