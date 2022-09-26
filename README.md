@@ -5,5 +5,5 @@
 
 | 	Module	 | 	Done	 | 
 | 	:--:	 | 	:--:	 | 
-| 	Intermediate DSA	| ✅ | 
+| 	Intermediate DSA	| ✅ ⬜ ✅ ⬜| 
 | 	Advanced DSA	| 	✔️ ⬜	 | 
