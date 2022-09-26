@@ -5,5 +5,5 @@
 
 | 	Module	 | 	Done	 | 
 | 	:--:	 | 	:--:	 | 
-| 	Intermediate DSA	| 	- [ ]	 | 
-| 	Advanced DSA	| 	- [x]	 | 
+| 	Intermediate DSA	| ✅ | 
+| 	Advanced DSA	| 	:heavy_check_mark: ⬜	 | 
