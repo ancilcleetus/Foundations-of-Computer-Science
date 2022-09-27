@@ -1,0 +1,10 @@
+[0, 3, 3, 4, 6, 6, 6]
+Took 22.721 us = 0.022721 ms
+[0, 3, 3, 4, 6, 6, 6]
+Took 10.176 us = 0.010176 ms
+[-1, 4, 5, 5, 1, 1, 0]
+Took 9.657 us = 0.009657 ms
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
