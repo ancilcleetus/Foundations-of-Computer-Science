@@ -1,0 +1,12 @@
+False
+Took 93.477 us = 0.093477 ms
+True
+Took 20.744 us = 0.020744 ms
+False
+Took 9.218 us = 0.009218 ms
+True
+Took 9.701 us = 0.009701 ms
+
+
+** Process exited - Return Code: 0 **
+Press Enter to exit terminal
