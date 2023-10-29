@@ -2,5 +2,5 @@
 
 | 	Component               | 	Done    | 
 | 	:--------	            | 	:---	| 
-| 	[Primitive Datatypes](/Primitives.java)     |   ✔️⬜   | 
+| 	[Primitive Datatypes](/Intro-to-Java/Primitives.java)     |   ✔️⬜   | 
 
