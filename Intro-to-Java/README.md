@@ -1,6 +1,7 @@
 # Intro to Java
 
-| 	Component               | 	Done    | 
-| 	:--------	            | 	:---	| 
-| 	[Primitive Datatypes](/Intro-to-Java/Primitives.java)     |   ✔️⬜   | 
+| 	Component                                               | 	Description         | 	Done    | 
+| 	:--------	                                            | 	:----------	        | 	:---    | 
+| 	[Primitive Datatypes](/Intro-to-Java/Primitives.java)   |   Primitive Datatypes |   ✔️      | 
+| 	[Primitive Datatypes](/Intro-to-Java/Primitives.java)   |   Primitive Datatypes |   ✔️⬜   | 
 
